@@ -1,0 +1,148 @@
+.header h1{
+  padding: 80px; 
+ 
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    background-color: #336600;
+    position: sticky;
+    top:0;
+  transition: top 0.3s; 
+}
+.navbar ul{
+    display:flex;
+    list-style:none;
+    margin:20px 0px;
+}
+
+.navbar ul li{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
+    padding:8px 25px;
+    transition:all .5s ease;
+}
+
+.navbar ul li a:hover{
+   background-color:#ffcccc;
+   color:black;
+   box-shadow: 0 0 10px white;
+   
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 20%; 
+  background-image:url(https://i.pinimg.com/564x/47/4b/c1/474bc184ed1b715cc683ddf96ca4eb52.jpg);
+  padding: 20px; 
+  border-style: double;
+  border-color: black;
+  font-size: 15px;
+  font-family:times new roman;
+  color:#99003d;
+}
+ 
+.main {
+  flex: 70%; 
+  background-image:url(https://i.pinimg.com/564x/fd/b2/1d/fdb21df71a74509286da12d2eb26d2a8.jpg);
+  padding: 20px; 
+  border-style: double;
+  border-color:black;
+  font-family:cursive;
+  font-size: 10px;
+  color:black;
+
+}
+input[type=text], select, textarea {    
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  border-style: solid;
+  border-color:grey;
+  background-color: #b3ffb3;
+  padding: 20px;
+}
+.icon-bar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: pink;
+}
+
+.fa-telegram{
+   color:black;
+}
+
+.fa-envelope-square{
+  color:red;
+}
+
+.fa-twitter-square{
+  color: #66ffff;
+}
+
+.fa-whatsapp{
+  color:green;
+}
+.fa-facebook-square{
+ color:blue;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ccffb3;;
+  color: black;
+  text-align: center;
+}
